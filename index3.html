@@ -15,51 +15,46 @@
         <li><a href="index3.html">HOW DOES IT WORK</a></li>
         <li><a href="index4.html">POPULAR ALGORITHMS</a></li>
     </ul>
-    <h1 class="style">How does image recognition work?</h1>
-    <div class="content">
-        <div class="grow">
-            <p class="style">
-                How do we train a computer to tell one image apart from another image? The process of an image
-                recognition model is no different from the process of machine learning modeling. I list the modeling
-                process for image recognition in Steps 1 through 4.
-            </p>
-        </div>
-        <h2 class="style">Modeling Step 1: Extract pixel features from an image</h2>
-        <div class="grow">
-            <p class="style">
-                First, a great number of characteristics, called features are extracted from the image. An image is
-                actually made of “pixels”, as shown in Figure. Each pixel is represented by a number or a set of
-                numbers — and the range of these numbers is called the color depth. In other words, the
-                color depth indicates the maximum number of potential colors that can be used in an image. In an (8-bit)
-                greyscale image (black and white) each pixel has one value that ranges from 0 to 255. Most images today
-                use 24-bit color or higher. An RGB color image means the color in a pixel is a combination of red,
-                green, and blue. Each of the colors ranges from 0 to 255.
-            </p>
-        </div>
-        <h2 class="style">Modeling Step 2: Prepare labeled images to train the model</h2>
-        <div class="grow">
-            <p class="style">
-                Once each image is converted to thousands of features, with the known labels of the images we can use
-                them to train a model. The more images we can use for each category, the better a model can be trained
-                to tell
-                an image whether is a dog or a fish image. This is called supervised machine learning.
-            </p>
-        </div>
-        <h2 class="style">Modeling Step 3: Train the model to be able to categorize images</h2>
-        <div class="grow">
-            <p class="style">
-                Figure demonstrates how a model is trained with the pre-labeled images. The huge networks in the
-                middle can be considered a giant filter. The images in their extracted forms enter the input side and
-                the labels are on the output side. The purpose here is to train the networks such that an image with its
-                features coming from the input will match the label on the right.
+    <div class="style">
+        <h1 class="header">Image recognition</h1>
+        <h1 class="style">How does image recognition work?</h1>
+        <div class="content">
+                <p>
+                    How do we train a computer to tell one image apart from another image? The process of an image
+                    recognition model is no different from the process of machine learning modeling. I list the modeling
+                    process for image recognition in Steps 1 through 4.
+                </p>
+            </div>
+            <h2 class="style">Modeling Step 1: Extract pixel features from an image</h2>
+                <p>
+                    First, a great number of characteristics, called features are extracted from the image. An image is
+                    actually made of “pixels”, as shown in Figure. Each pixel is represented by a number or a set of
+                    numbers — and the range of these numbers is called the color depth. In other words, the
+                    color depth indicates the maximum number of potential colors that can be used in an image. In an (8-bit)
+                    greyscale image (black and white) each pixel has one value that ranges from 0 to 255. Most images today
+                    use 24-bit color or higher. An RGB color image means the color in a pixel is a combination of red,
+                    green, and blue. Each of the colors ranges from 0 to 255.
+                </p>
+            <h2 class="style">Modeling Step 2: Prepare labeled images to train the model</h2>
+                <p>
+                    Once each image is converted to thousands of features, with the known labels of the images we can use
+                    them to train a model. The more images we can use for each category, the better a model can be trained
+                    to tell
+                    an image whether is a dog or a fish image. This is called supervised machine learning.
+                </p>
+            <h2 class="style">Modeling Step 3: Train the model to be able to categorize images</h2>
+                <p>
+                    The image demonstrates how a model is trained with the pre-labeled images. The huge networks in the
+                    middle can be considered a giant filter. The images in their extracted forms enter the input side and
+                    the labels are on the output side. The purpose here is to train the networks such that an image with its
+                    features coming from the input will match the label on the right.
+                    
+                </p>
                 <img src="Imagerecognition .png">
-            </p>
-        </div>
-        <h2 class="style">Modeling Step 4: Recognize a new image to be one of the categories</h2>
-        <div class="grow">
-            <p class="style">
-                Once a model is trained, it can be used to recognize (or predict) an unknown image.
-            </p>
+            <h2 class="style">Modeling Step 4: Recognize a new image to be one of the categories</h2>
+                <p>
+                    Once a model is trained, it can be used to recognize (or predict) an unknown image.
+                </p>
         </div>
     </div>
 </body>
